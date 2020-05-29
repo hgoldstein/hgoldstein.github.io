@@ -15,17 +15,15 @@ generate_rss = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-# https://github.com/janbaudisch/zola-sam
-theme = "sam"
+theme = "hyde"
 
-title = "Hunter Goldstein (hgoldstein)"
+title = "Hunter Goldstein"
 
 [extra]
 # Put all your custom variables here
-
-sam_menu = [
-  { text = "about", link = "/about" },
-  { text = "posts", link = "/posts" },
-  { text = "github", link = "https://github.com/hgoldstein" },
-  { text = "linkedin", link = "https://www.linkedin.com/in/huntergoldstein/" }
+hyde_theme = "theme-base-0d"
+hyde_links = [
+  { name = "about", url = "/about" },
+  { name = "github", url = "https://github.com/hgoldstein" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/huntergoldstein/" }
 ]
